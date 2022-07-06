@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestTest(failed)">
+    <classes>
+      <class name="dalalStreetTest.TestExecution">
+        <methods>
+          <include name="no"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- dalalStreetTest.TestExecution -->
+    </classes>
+  </test> <!-- TestTest(failed) -->
+</suite> <!-- Failed suite [SuiteTest] -->
