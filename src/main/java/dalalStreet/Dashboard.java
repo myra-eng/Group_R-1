@@ -23,5 +23,15 @@ public class Dashboard {
 	private WebElement portfolio;
 	public void portfolio() {
 		portfolio.click();
+	}@FindBy (xpath="//a[@href='/exchanges']")
+	private WebElement exchange;
+	public void exchange() {
+		exchange.click();
 	}
+	@FindBy (xpath="//a[@href='/portfolio']")
+	private WebElement portfolio;
+	public void portfolio() {
+		portfolio.click();
+	}
+	
 }
